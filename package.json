@@ -1,0 +1,31 @@
+{
+  "name": "debug-vs-code",
+  "version": "1.0.0",
+  "description": "Como debugar uma aplicação node.js com o vs code - How to debug a Node.js application using VS Code",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/claudineyjr/node-debug-vs-code.git"
+  },
+  "keywords": [
+    "node.js",
+    "nodejs",
+    "vscode",
+    "vs",
+    "code",
+    "debug",
+    "javascript"
+  ],
+  "author": "Claudiney Junior <claudiney.info@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/claudineyjr/node-debug-vs-code/issues"
+  },
+  "homepage": "https://github.com/claudineyjr/node-debug-vs-code#readme",
+  "dependencies": {
+    "express": "^4.16.4"
+  }
+}
