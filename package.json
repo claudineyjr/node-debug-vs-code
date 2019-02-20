@@ -4,6 +4,8 @@
   "description": "Como debugar uma aplicação node.js com o vs code - How to debug a Node.js application using VS Code",
   "main": "index.js",
   "scripts": {
+    "start:dev": "nodemon --inspect index.js",
+    "start": "node index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -26,6 +28,8 @@
   },
   "homepage": "https://github.com/claudineyjr/node-debug-vs-code#readme",
   "dependencies": {
-    "express": "^4.16.4"
+    "body-parser": "^1.18.3",
+    "express": "^4.16.4",
+    "nodemon": "^1.18.10"
   }
 }
