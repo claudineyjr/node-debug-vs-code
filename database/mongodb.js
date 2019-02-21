@@ -1,7 +1,6 @@
 module.exports = (credentials) => {
     const mongoose = require('mongoose');
     mongoose.set('useFindAndModify', false);
-    console.log(credentials)
 
     const { user, password, database, host, port } = credentials;
 

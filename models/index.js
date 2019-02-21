@@ -8,8 +8,6 @@ const credentials = {
     database: process.env.MONGODB_DATABASE || 'local',
 };
 
-console.log(credentials)
-
 const mongoConnection = databaseIndex('mongodb', credentials);
 const Movie = MovieSchema.getMovieSchema(mongoConnection);
 
