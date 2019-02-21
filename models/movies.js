@@ -1,5 +1,5 @@
 module.exports.getMovieSchema = (connection) => {
-    const Schema = conn.mongoose.Schema;
+    const { Schema } = connection.mongoose;
 
     const MovieSchema = new Schema({
         title: {
@@ -25,5 +25,5 @@ module.exports.getMovieSchema = (connection) => {
         },
     });
 
-    return conn.model('Movie', MovieSchema);
+    return connection.model('Movie', MovieSchema);
 };
