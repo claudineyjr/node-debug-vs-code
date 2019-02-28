@@ -10,6 +10,16 @@ const get = async (req, res) => {
     }
 };
 
+const post = async (req, res) => {
+    try {
+        const result = await service.create(req);
+        return responseJson(res, result); 
+    } catch (error) {
+        return responseErrorJson(res, 'movie::get', error);
+    }
+};
+
 module.exports = {
     get,
+    post,
 };
